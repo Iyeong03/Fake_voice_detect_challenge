@@ -7,6 +7,7 @@
 ![image](https://github.com/user-attachments/assets/eff8bc91-c836-4a84-af71-6244b974debf)
 ![image](https://github.com/user-attachments/assets/6ab722dc-ff2f-4ab0-9753-0163d729298a)
 ![image](https://github.com/user-attachments/assets/23715486-ac7c-4032-92ae-6b6d4e84c97f)
+
 우선 sequence data인 음성 데이터를 모델이 입력 받을 수 있는 형태로 가공하는 과정이 필요하였다.
 - fake와 real 음성은 mel-spectrogram에서 다른 특성을 보일 것이라고 판단하고 mel-spectrogram을 이용하여 데이터 전처리를 하기로 하였다. 
   - (추가적으로 제공받은 데이터들의 seq_len이 모두 달라 max_len을 기준으로 padding을 0으로 주는 과정을 거쳤다. 대회가 끝나고 좀 더 공부를 하면서 느낀점은 padding을 0으로 주고
